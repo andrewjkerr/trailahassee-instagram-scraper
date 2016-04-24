@@ -1,3 +1,40 @@
 // Place all the styles related to the screensaver controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+  overflow: hidden;
+}
+
+.row {
+  height: 33%
+}
+
+#root { 
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-items:stretch;
+}
+
+img {
+  flex: 1;
+  width: 25vw;
+  height: 34vh;
+}
+
+.screensaver-img {
+  padding: 0;
+  margin: 0;
+  float: left;
+  display: block;
+}
+
+#lower-bar {
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

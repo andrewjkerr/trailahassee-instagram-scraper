@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'screensaver/index'
+  root 'screensaver#index'
 
   get 'screensaver/new_image'
 
